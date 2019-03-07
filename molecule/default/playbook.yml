@@ -2,7 +2,7 @@
 - name: Converge
   hosts: all
   roles:
-    - role: firewalld
+    - role: ansible-role-firewalld
       firewalld_allow_services:
         - {service: "http"}
       firewalld_allow_ports:
