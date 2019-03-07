@@ -4,8 +4,8 @@
   roles:
     - role: firewalld
       firewalld_allow_services:
-        - { service: "http" }
+        - {service: "http"}
       firewalld_allow_ports:
-        - { port: "4444/tcp" }
+        - {port: "4444/tcp"}
       firewalld_filter_sources:
-        - { source: "127.0.0.1", port: "80" }
+        - {source: "127.0.0.1", port: "80"}
