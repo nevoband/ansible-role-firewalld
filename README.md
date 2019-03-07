@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nevoband/ansible-automysqlbackup.svg?branch=master)](https://travis-ci.org/nevoband/ansible-role-firewalld)
+
 Role Name
 =========
 
